@@ -13,13 +13,13 @@ export const metadata: Metadata = {
   creator: siteConfig.name,
   openGraph: {
     type: "website",
-    title: `${siteConfig.name} | Scientific Project Coordination`,
+    title: `${siteConfig.name} | ${siteConfig.title}`,
     description: siteConfig.description,
     images: [{ url: "/images/hero-portrait-v2.png", width: 1122, height: 1402, alt: siteConfig.name }],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.name} | Scientific Project Coordination`,
+    title: `${siteConfig.name} | ${siteConfig.title}`,
     description: siteConfig.description,
     images: ["/images/hero-portrait-v2.png"],
   },

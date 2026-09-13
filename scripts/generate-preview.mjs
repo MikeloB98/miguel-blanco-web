@@ -16,9 +16,9 @@ const html = `<!doctype html>
 <html lang="en"><head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Scientist and PhD physicist coordinating technical work across advanced materials, semiconductors, energy materials, industrial R&amp;D and applied AI.">
+  <meta name="description" content="Materials scientist and PhD physicist working across renewable energy, hydrogen technologies, semiconductors, nanotechnology, industrial R&amp;D and applied AI.">
   <meta name="theme-color" content="#081a2f">
-  <title>Miguel Blanco García | Scientific Project Coordination, Materials &amp; Semiconductors</title>
+  <title>Miguel Blanco García | Energy, Semiconductors &amp; Nanotechnology</title>
   <link rel="preload" href="public/images/hero-portrait-v2.png" as="image" type="image/png">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>

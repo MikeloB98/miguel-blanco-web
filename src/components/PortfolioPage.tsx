@@ -31,9 +31,9 @@ export function PortfolioPage() {
     <section className="hero" id="top" aria-labelledby="hero-title">
       <div className="shell hero-grid">
         <div className="hero-copy reveal">
-          <p className="eyebrow"><span>Materials</span><span>Semiconductors</span><span>Energy</span></p>
+          <p className="eyebrow"><span>Energy</span><span>Semiconductors</span><span>Nanotechnology</span></p>
           <h1 id="hero-title">I turn complex science into <em>coordinated technical projects.</em></h1>
-          <p className="hero-intro">I’m Miguel, a materials scientist and PhD physicist combining scientific depth with project coordination, experimental delivery and applied AI.</p>
+          <p className="hero-intro">I’m Miguel, a materials scientist and PhD physicist with a background in renewable energy, hydrogen technologies, semiconductor surfaces and nanoscale materials. I combine experimental work with project coordination and applied AI.</p>
           <div className="hero-actions">
             <a className="button button-primary" href="#work">Explore selected work <span aria-hidden="true">↘</span></a>
             <button className="button button-text contact-trigger" type="button" data-contact-open>Contact me <span aria-hidden="true">→</span></button>
@@ -45,7 +45,6 @@ export function PortfolioPage() {
         </div>
 
         <figure className="portrait-wrap reveal">
-          <div className="portrait-index" aria-hidden="true">01 / 01</div>
           <Image src="/images/hero-portrait-v2.png" width="1122" height="1402" sizes="(max-width: 760px) 84vw, 520px" alt="Portrait of Miguel Blanco García" priority />
           <figcaption>Materials scientist · PhD physicist · Project coordinator</figcaption>
         </figure>
@@ -54,21 +53,21 @@ export function PortfolioPage() {
           <p className="panel-label">Selected evidence</p>
           <div className="evidence-grid">
             <div className="evidence-item">
-              <strong>summa<br />cum laude</strong>
+              <strong>SUMMA<br />CUM LAUDE</strong>
               <span>PhD in Physics</span>
-            </div>
-            <div className="evidence-item">
-              <strong>2</strong>
-              <span>First-author JACS papers</span>
-            </div>
-            <div className="evidence-item">
-              <strong>4</strong>
-              <span>Peer-reviewed ACS publications</span>
             </div>
             <div className="evidence-item evidence-wide">
               <strong>EU work-package leadership</strong>
               <span>CORAERO · experiments at DESY, SOLEIL &amp; ESRF</span>
             </div>
+            <a className="evidence-item evidence-paper" href="https://doi.org/10.1021/jacs.6c07370" target="_blank" rel="noopener">
+              <strong>JACS · 2026</strong>
+              <span>Cysteine adsorption and photooxidation on anatase TiO<sub>2</sub>(101) ↗</span>
+            </a>
+            <a className="evidence-item evidence-paper" href="https://doi.org/10.1021/jacs.5c07119" target="_blank" rel="noopener">
+              <strong>JACS · 2025</strong>
+              <span>Cysteine adsorption on rutile TiO<sub>2</sub>(110) ↗</span>
+            </a>
           </div>
         </aside>
       </div>
@@ -82,14 +81,14 @@ export function PortfolioPage() {
           <h2 id="about-title">Depth in the science.<br />Clarity in the execution.</h2>
         </div>
         <div className="about-copy reveal">
-          <p className="lead">I am a materials scientist, PhD physicist and chemist by training. My work connects semiconductor surfaces, thin films, photocatalysis and light-driven chemical transformations.</p>
-          <p>At DESY NanoLab and the University of Hamburg, I led a research work package within the EU-funded CORAERO project. I designed experimental programmes, coordinated measurements and collaborators, worked at international synchrotron facilities, and took responsibility for complex surface-science instruments.</p>
-          <p>I now bring that mix of rigorous analysis, structured problem solving and hands-on delivery to industrial R&amp;D and technical projects—including AI systems that turn complex workflows into usable tools.</p>
+          <p className="lead">I am a materials scientist, PhD physicist and chemist by training. My work connects semiconductors, surfaces, thin films, photocatalysis and light-driven chemical transformations.</p>
+          <p>At DESY NanoLab and the University of Hamburg, I led a research work package within the EU-funded CORAERO project. I designed experimental programs, coordinated measurements and collaborators, worked at international synchrotron facilities, and took responsibility for complex surface science instruments.</p>
+          <p>I now bring that mix of rigorous analysis, structured problem solving and hands-on delivery to industrial R&amp;D and technical projects, including AI systems that turn complex workflows into usable tools.</p>
         </div>
-        <blockquote className="approach reveal">
-          <p>“Understand the system, structure the work, deliver the evidence.”</p>
-          <span>My approach to complex technical problems</span>
-        </blockquote>
+        <div className="approach reveal">
+          <p>I enjoy the point where a scientific question becomes a practical experiment, and where the result has to be turned into a clear next step.</p>
+          <span>How I like to work</span>
+        </div>
       </div>
     </section>
 
@@ -179,11 +178,11 @@ export function PortfolioPage() {
       <div className="shell">
         <div className="section-top reveal">
           <div className="section-marker"><span>04</span><p>Scientific domains</p></div>
-          <div className="section-heading"><p className="kicker">Technical range</p><h2 id="domains-title">A multidisciplinary view of materials.</h2></div>
+          <div className="section-heading"><p className="kicker">Technical range</p><h2 id="domains-title">Energy, semiconductors and materials at the nanoscale.</h2></div>
         </div>
         <div className="domain-grid">
-          <article className="domain reveal"><span>01</span><h3>Materials &amp; surfaces</h3><p>Surface and interface science, TiO<sub>2</sub>, ZnO, photocatalytic semiconductors, thin films, coatings and metal nanoparticles.</p></article>
-          <article className="domain reveal"><span>02</span><h3>Energy materials</h3><p>Magnesium ultrathin films, hydrogen storage, electrochemistry, fuel cells, photo-assisted hydrogen and renewable energy materials.</p></article>
+          <article className="domain domain-energy reveal"><span>01</span><h3>Renewable energy &amp; hydrogen</h3><p>Training in renewable generation, hydrogen production and storage, electrochemistry, PEM fuel cells and electrolysers, with experimental work on magnesium ultrathin films and photo-assisted hydrogen production.</p></article>
+          <article className="domain reveal"><span>02</span><h3>Semiconductors &amp; nanomaterials</h3><p>Surface and interface science, TiO<sub>2</sub>, ZnO, photocatalytic semiconductors, thin films, coatings, metal nanoparticles and nanoscale characterisation.</p></article>
           <article className="domain reveal"><span>03</span><h3>Industrial materials</h3><p>Recycled polymers, polyolefin formulations and rheological, thermal and mechanical testing through Repsol’s RECICLEX project.</p></article>
           <article className="domain reveal"><span>04</span><h3>Methods &amp; instruments</h3><p>STM/SPM, XPS, FT-IRRAS, AFM, SEM, TEM, XRD, LEED, GISAXS, GIXRD, UHV, synchrotron methods and electrochemistry.</p></article>
           <article className="domain reveal"><span>05</span><h3>Projects &amp; communication</h3><p>Experimental strategy, work-package coordination, stakeholder collaboration, PM2, technical reporting, scientific writing and presentations.</p></article>
@@ -199,7 +198,7 @@ export function PortfolioPage() {
           <div className="section-heading">
             <p className="kicker">The same method, applied to software</p>
             <h2 id="ai-title">Structured evidence. Bounded workflows. Human control.</h2>
-            <p className="heading-note">I build AI tools by decomposing complex problems into clear, testable steps—an extension of how I approach experimental science.</p>
+            <p className="heading-note">I started building AI applications to solve problems I encountered in my own work. The habit comes from experimental science: use the tools available, make the steps explicit and keep the important decisions with the person using them.</p>
           </div>
         </div>
         <div className="project-list">
@@ -213,11 +212,13 @@ export function PortfolioPage() {
             <div className="project-index">02 / Full stack</div>
             <div><h3>NutriFit AI</h3><p>A full-stack application that turns typed or dictated nutrition and training information into structured sports-nutrition analysis through five specialised agents.</p></div>
             <ul className="tag-list"><li>Python</li><li>TypeScript</li><li>Node.js</li><li>Google ADK</li></ul>
+            <a className="project-link" href="https://github.com/MikeloB98/nutrifit-ai" target="_blank" rel="noopener">View repository <span aria-hidden="true">↗</span></a>
           </article>
           <article className="project reveal">
             <div className="project-index">03 / Multi-agent</div>
             <div><h3>MobelFlip</h3><p>A workflow that turns furniture photographs into product identification, market research, pricing, bilingual listing copy, printable PDF sheets and configuration output.</p></div>
             <ul className="tag-list"><li>Python</li><li>Google ADK</li><li>LLMs</li><li>MCP</li></ul>
+            <a className="project-link" href="https://github.com/MikeloB98/mobelflip" target="_blank" rel="noopener">View repository <span aria-hidden="true">↗</span></a>
           </article>
         </div>
       </div>
@@ -247,17 +248,34 @@ export function PortfolioPage() {
       </div>
     </section>
 
+    <section className="section beyond" id="beyond" aria-labelledby="beyond-title">
+      <div className="shell beyond-grid">
+        <div className="beyond-text">
+          <div className="section-marker reveal"><span>07</span><p>Beyond the lab</p></div>
+          <div className="beyond-copy reveal">
+            <p className="kicker">Curiosity outside work</p>
+            <h2 id="beyond-title">There is always something new to see, learn or cook.</h2>
+            <div className="beyond-body">
+              <p>Outside work, I like travelling, spending time outdoors and trying things I have not done before. I am curious by nature, especially about history, geography and the details that explain why places and systems are the way they are.</p>
+              <p>That curiosity also shapes how I think about technology. I care about innovation, but also about how technologies are developed and used, and whether they solve real problems responsibly.</p>
+              <p>I also enjoy cooking, discovering new food and sharing a good meal.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section className="section direction" aria-labelledby="direction-title">
       <div className="shell direction-grid reveal">
-        <div className="section-marker"><span>07</span><p>Next</p></div>
-        <div><p className="kicker">Where I want to contribute</p><h2 id="direction-title">Technical environments where depth improves decisions.</h2></div>
-        <div><p>I’m interested in industrial R&amp;D and technical projects where materials expertise supports practical delivery. My strongest fit is across materials, semiconductors, thin films, energy materials and scientific project coordination.</p><p>I’m also interested in technical consulting, AI implementation, automation and technology transfer where rigorous technical understanding meets execution.</p></div>
+        <div className="section-marker"><span>08</span><p>Next</p></div>
+        <div><p className="kicker">Where I want to contribute</p><h2 id="direction-title">Energy, semiconductors and nanotechnology.</h2></div>
+        <div><p>I want to work in technical environments where materials science helps move a real system forward. I’m especially interested in renewable energy, hydrogen technologies, fuel cells, semiconductors, thin films and nanotechnology.</p><p>I’m also interested in scientific project coordination, technical consulting, technology transfer and applied AI when they stay close to the underlying science.</p></div>
       </div>
     </section>
 
     <section className="contact" id="contact" aria-labelledby="contact-title">
       <div className="shell contact-grid">
-        <div className="section-marker reveal"><span>08</span><p>Contact</p></div>
+        <div className="section-marker reveal"><span>09</span><p>Contact</p></div>
         <div className="contact-main reveal">
           <p className="kicker">Let’s start a useful conversation</p>
           <h2 id="contact-title">Technical work needs both <em>depth</em> and <em>coordination.</em></h2>

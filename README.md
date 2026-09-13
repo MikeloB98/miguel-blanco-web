@@ -24,7 +24,7 @@ npm run typecheck
 npm run build
 ```
 
-The production build regenerates the downloadable CV and standalone preview first.
+The production build regenerates the standalone preview first. The downloadable CV is maintained as a reviewed PDF in `public/`.
 
 ## Configuration
 
@@ -53,4 +53,4 @@ styles.css         Generated preview stylesheet
 script.js          Standalone preview interactions
 ```
 
-The public site intentionally excludes a telephone number until one is explicitly configured. Review `src/config/site.ts` and the generated CV before every public deployment.
+The public site intentionally excludes a telephone number until one is explicitly configured. Review `src/config/site.ts` and the selected CV before every public deployment.

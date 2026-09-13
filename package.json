@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "generate": "npm run generate:cv && npm run generate:preview",
+    "generate": "npm run generate:preview",
     "generate:cv": "node scripts/generate-cv.mjs",
     "generate:preview": "node scripts/generate-preview.mjs",
     "prebuild": "npm run generate",

@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "Miguel Blanco García",
-  title: "Scientific Project Coordination, Materials & Semiconductors",
+  title: "Energy, Semiconductors & Nanotechnology",
   description:
-    "Scientist and PhD physicist coordinating technical work across advanced materials, semiconductors, energy materials, industrial R&D and applied AI.",
+    "Materials scientist and PhD physicist working across renewable energy, hydrogen technologies, semiconductors, nanotechnology, industrial R&D and applied AI.",
   email: "miguel.blanco1011@gmail.com",
   phone: "" as string,
   cvPath: "/Miguel-Blanco-Garcia-CV.pdf",
